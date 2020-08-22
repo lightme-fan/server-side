@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/lightme-fan/server-side/issues"
   },
-  "homepage": "https://github.com/lightme-fan/server-side#readme"
+  "homepage": "https://github.com/lightme-fan/server-side#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
