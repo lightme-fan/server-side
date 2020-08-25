@@ -1,9 +1,7 @@
-<p>Hello from:</p>
-<ol>
-  <li>Node.js</li>
-  <li>Express</li>
-  <li>and now… Nunjucks</li>
-</ol>
+{% set isItFriday = true %}
 
-<div>You can do your best</div>
-<h2>Well done!</h2>
+{% if isItFriday %}
+  Hey hey hey! It's Friday! 🎉
+{% else %}
+Is it Friday yet? 🥱
+{% endif %}
